@@ -1,0 +1,3 @@
+# Bank sample extracts are byte-exact fixtures (encoding + CRLF are meaningful).
+# Never normalize line endings or re-encode them.
+samples/** -text

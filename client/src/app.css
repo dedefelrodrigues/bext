@@ -1,0 +1,80 @@
+@import 'tailwindcss';
+
+/* Class/attribute-based dark mode driven by data-theme on <html>. */
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+/* Semantic color tokens. Components reference these (bg-background, text-foreground,
+   bg-card, border-border, …) so theming is centralized here — new components are
+   theme-correct by default without per-element dark: overrides. */
+:root {
+  color-scheme: light;
+  --background: #f9fafb; /* gray-50 */
+  --foreground: #111827; /* gray-900 */
+  --card: #ffffff;
+  --card-foreground: #111827;
+  --muted: #f3f4f6; /* gray-100 */
+  --muted-foreground: #6b7280; /* gray-500 */
+  --border: #e5e7eb; /* gray-200 */
+  --input: #d1d5db; /* gray-300 */
+  --ring: #111827;
+  --primary: #111827;
+  --primary-foreground: #ffffff;
+  --accent: #f3f4f6; /* hover surface */
+  --accent-foreground: #111827;
+  --destructive: #dc2626; /* red-600 */
+  --destructive-foreground: #ffffff;
+  --success: #16a34a; /* green-600 */
+  --warning: #fffbeb; /* amber-50 */
+  --warning-foreground: #92400e; /* amber-800 */
+  --warning-border: #fde68a; /* amber-200 */
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+  --background: #0a0a0a;
+  --foreground: #fafafa;
+  --card: #171717; /* neutral-900 */
+  --card-foreground: #fafafa;
+  --muted: #262626; /* neutral-800 */
+  --muted-foreground: #a3a3a3; /* neutral-400 */
+  --border: #2a2a2a;
+  --input: #404040; /* neutral-700 */
+  --ring: #d4d4d4;
+  --primary: #fafafa; /* light button on dark surface */
+  --primary-foreground: #171717;
+  --accent: #262626;
+  --accent-foreground: #fafafa;
+  --destructive: #ef4444; /* red-500 */
+  --destructive-foreground: #fafafa;
+  --success: #22c55e; /* green-500 */
+  --warning: #3a2a06; /* deep amber */
+  --warning-foreground: #fcd34d; /* amber-300 */
+  --warning-border: #613d0b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-warning-border: var(--warning-border);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}

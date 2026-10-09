@@ -1,0 +1,41 @@
+CREATE TABLE `transactions` (
+	`id` integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	`user_id` integer NOT NULL,
+	`account_id` integer NOT NULL,
+	`upload_id` integer,
+	`date` text NOT NULL,
+	`description` text NOT NULL,
+	`amount_cents` integer NOT NULL,
+	`currency` text NOT NULL,
+	`foreign_amount_cents` integer,
+	`foreign_currency` text,
+	`category_id` integer,
+	`subcategory_id` integer,
+	`business_flag` text DEFAULT 'personal' NOT NULL,
+	`is_manual` integer DEFAULT false NOT NULL,
+	`is_locked` integer DEFAULT false NOT NULL,
+	`matched_keyword_id` integer,
+	`parent_id` integer,
+	`dedup_key` text NOT NULL,
+	`occurrence_index` integer DEFAULT 0 NOT NULL,
+	`created_at` text DEFAULT (datetime('now')) NOT NULL,
+	FOREIGN KEY (`user_id`) REFERENCES `users`(`id`) ON UPDATE no action ON DELETE cascade,
+	FOREIGN KEY (`account_id`) REFERENCES `accounts`(`id`) ON UPDATE no action ON DELETE cascade,
+	FOREIGN KEY (`upload_id`) REFERENCES `uploads`(`id`) ON UPDATE no action ON DELETE cascade,
+	FOREIGN KEY (`category_id`) REFERENCES `categories`(`id`) ON UPDATE no action ON DELETE set null,
+	FOREIGN KEY (`subcategory_id`) REFERENCES `subcategories`(`id`) ON UPDATE no action ON DELETE set null,
+	FOREIGN KEY (`matched_keyword_id`) REFERENCES `keywords`(`id`) ON UPDATE no action ON DELETE set null,
+	FOREIGN KEY (`parent_id`) REFERENCES `transactions`(`id`) ON UPDATE no action ON DELETE cascade
+);
+--> statement-breakpoint
+CREATE TABLE `uploads` (
+	`id` integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	`user_id` integer NOT NULL,
+	`account_id` integer NOT NULL,
+	`filename` text NOT NULL,
+	`total_rows` integer DEFAULT 0 NOT NULL,
+	`imported_count` integer DEFAULT 0 NOT NULL,
+	`uploaded_at` text DEFAULT (datetime('now')) NOT NULL,
+	FOREIGN KEY (`user_id`) REFERENCES `users`(`id`) ON UPDATE no action ON DELETE cascade,
+	FOREIGN KEY (`account_id`) REFERENCES `accounts`(`id`) ON UPDATE no action ON DELETE cascade
+);

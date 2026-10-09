@@ -1,0 +1,929 @@
+{
+  "categories": [
+    {
+      "name": "Bank Fees",
+      "icon": "landmark",
+      "businessDefault": "personal",
+      "isHidden": false,
+      "isCashWithdrawal": false,
+      "subcategories": [
+        {
+          "name": "ATM Fees",
+          "icon": null,
+          "keywords": [
+            "atm fee",
+            "withdraw charge"
+          ]
+        },
+        {
+          "name": "Transaction Fees",
+          "icon": null,
+          "keywords": [
+            "odnowienia nieodnawialna",
+            "Opłaty i prowizje",
+            "zagranicznywalutowy"
+          ]
+        },
+        {
+          "name": "Service Charges",
+          "icon": null,
+          "keywords": [
+            "credit card fee",
+            "podstawowa za kart",
+            "tar pacote itau"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Home Improvement",
+      "icon": "hammer",
+      "businessDefault": "personal",
+      "isHidden": false,
+      "isCashWithdrawal": false,
+      "subcategories": [
+        {
+          "name": "Renovations",
+          "icon": null,
+          "keywords": [
+            "artnapi.pl",
+            "bricoman",
+            "decoratore.pl",
+            "dkwadrat.pl",
+            "eurofirany",
+            "Farbau",
+            "farbynadrewno.pl",
+            "home-you.com",
+            "kobra",
+            "LOBERON",
+            "metalowedekoracje",
+            "pelltech.pl",
+            "Raw Decor",
+            "reuter europe",
+            "Sklep Wentylacyjny",
+            "Vip Parkiet"
+          ]
+        },
+        {
+          "name": "Appliances",
+          "icon": null,
+          "keywords": [
+            "Electrolux Poland",
+            "rtv",
+            "vorwek"
+          ]
+        },
+        {
+          "name": "Furniture",
+          "icon": "home",
+          "keywords": [
+            "agata",
+            "bel bazaar",
+            "Beliani",
+            "excellent office",
+            "fabryka sypialni",
+            "home&you",
+            "ikea",
+            "Kaufland",
+            "koh-i-noor",
+            "le pukka",
+            "meblobraniepl",
+            "mebloo",
+            "selsey pl",
+            "westwing"
+          ]
+        },
+        {
+          "name": "Home Repairs",
+          "icon": null,
+          "keywords": [
+            "leroy merlin"
+          ]
+        },
+        {
+          "name": "Home and car purchases",
+          "icon": null,
+          "keywords": [
+            "volkswagen leasing"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rent & Utilities",
+      "icon": "home",
+      "businessDefault": "personal",
+      "isHidden": false,
+      "isCashWithdrawal": false,
+      "subcategories": [
+        {
+          "name": "Rent",
+          "icon": "home",
+          "keywords": []
+        },
+        {
+          "name": "Building Administration",
+          "icon": null,
+          "keywords": []
+        },
+        {
+          "name": "Electricity",
+          "icon": "zap",
+          "keywords": [
+            "cpfl",
+            "e.on polska",
+            "innogy"
+          ]
+        },
+        {
+          "name": "Water",
+          "icon": "droplet",
+          "keywords": [
+            "semae"
+          ]
+        },
+        {
+          "name": "Gas",
+          "icon": "flame",
+          "keywords": [
+            "comgas"
+          ]
+        },
+        {
+          "name": "Internet",
+          "icon": "wifi",
+          "keywords": [
+            "orange",
+            "upc polska"
+          ]
+        },
+        {
+          "name": "Phone",
+          "icon": "smartphone",
+          "keywords": [
+            "Blue Media S.A.",
+            "giffgaff",
+            "Mobile Vikings"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Entertainment",
+      "icon": "film",
+      "businessDefault": "personal",
+      "isHidden": false,
+      "isCashWithdrawal": false,
+      "subcategories": [
+        {
+          "name": "Movies",
+          "icon": "film",
+          "keywords": [
+            "cinema city"
+          ]
+        },
+        {
+          "name": "Culture/Concerts/Muzeums",
+          "icon": null,
+          "keywords": [
+            "Atlas Arena",
+            "bilety.kopernik.or",
+            "bilety.nifc.pl",
+            "muzeum",
+            "philarmonica"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Income",
+      "icon": "wallet",
+      "businessDefault": "personal",
+      "isHidden": false,
+      "isCashWithdrawal": false,
+      "subcategories": [
+        {
+          "name": "Salary",
+          "icon": "wallet",
+          "keywords": []
+        },
+        {
+          "name": "Government aids",
+          "icon": null,
+          "keywords": [
+            "centrum obslugi swiadczen",
+            "r 500"
+          ]
+        },
+        {
+          "name": "Investments & Rent",
+          "icon": null,
+          "keywords": [
+            "Plan Cashback",
+            "rend pago aplic aut mais"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transfer In/Out",
+      "icon": "arrow-left-right",
+      "businessDefault": "personal",
+      "isHidden": true,
+      "isCashWithdrawal": false,
+      "subcategories": [
+        {
+          "name": "Transfers from Other Accounts",
+          "icon": null,
+          "keywords": [
+            "goodwill gesture",
+            "refund from",
+            "zwrot transakcji"
+          ]
+        },
+        {
+          "name": "Topup",
+          "icon": null,
+          "keywords": [
+            "first transfer",
+            "top-up",
+            "topup"
+          ]
+        },
+        {
+          "name": "Internal bank transfer",
+          "icon": null,
+          "keywords": [
+            "apl aplic aut mais",
+            "balance migration",
+            "degiro",
+            "exchanged to pln",
+            "int aplicacao premium di",
+            "int resgate",
+            "interactive brokers",
+            "kontoauflosung",
+            "odnowienia nieodnawialna",
+            "res aplic aut mais",
+            "revolut bank uab",
+            "revolutcom",
+            "revoluteur",
+            "To PLN",
+            "transfer eur to pln",
+            "vgbl",
+            "wypata lokaty",
+            "zaoenie lokaty terminowej"
+          ]
+        },
+        {
+          "name": "Currency conversion",
+          "icon": null,
+          "keywords": [
+            "exchanged to",
+            "kantor eur"
+          ]
+        },
+        {
+          "name": "Big purchases",
+          "icon": null,
+          "keywords": []
+        },
+        {
+          "name": "Savings & investments",
+          "icon": null,
+          "keywords": [
+            "alior konserwatywny",
+            "biuro maklerskie alior",
+            "schroder isf euro",
+            "skarbowej WTN",
+            "zalozenie lokaty terminowej",
+            "zamkniecie lokaty termin"
+          ]
+        },
+        {
+          "name": "Friends loan",
+          "icon": null,
+          "keywords": []
+        }
+      ]
+    },
+    {
+      "name": "Food & Drink",
+      "icon": "utensils",
+      "businessDefault": "personal",
+      "isHidden": false,
+      "isCashWithdrawal": false,
+      "subcategories": [
+        {
+          "name": "Restaurants",
+          "icon": "utensils",
+          "keywords": [
+            "Asian Food",
+            "bierhalle",
+            "bistro",
+            "Chef Express",
+            "cucina",
+            "Da Grasso",
+            "Five Guys",
+            "food court",
+            "gastronomia",
+            "Kuchnia Marché",
+            "pijalnia czekolady",
+            "pizza",
+            "pret a manger",
+            "Pyszne.pl",
+            "restauracja",
+            "restaurant",
+            "Salad Story",
+            "sushi",
+            "thai wok",
+            "trattoria",
+            "udon",
+            "vapiano",
+            "zapiecek"
+          ]
+        },
+        {
+          "name": "Groceries",
+          "icon": "shopping-cart",
+          "keywords": [
+            "auchan",
+            "biedronka",
+            "carrefour",
+            "coop",
+            "frisco",
+            "lidl",
+            "lubaszka",
+            "maxi ica",
+            "Olimp Store",
+            "piotr i pawel",
+            "putka",
+            "sklep miesny",
+            "Społem",
+            "Super Muffato",
+            "tesco",
+            "wss spole",
+            "wss spolem",
+            "zabka"
+          ]
+        },
+        {
+          "name": "Coffee Shops & Ice-creams",
+          "icon": "coffee",
+          "keywords": [
+            "cafe",
+            "caffe",
+            "charlotte",
+            "coffee",
+            "costa",
+            "Gelateria",
+            "Grycan",
+            "Kawiarnia",
+            "Lodolandia",
+            "lody",
+            "lodziarnie",
+            "Patisserie",
+            "piekarnia-cukiernia",
+            "starbucks"
+          ]
+        },
+        {
+          "name": "Fast Food",
+          "icon": "utensils",
+          "keywords": [
+            "burger king",
+            "Kfc",
+            "Max",
+            "max premium burgers",
+            "McDonald's",
+            "mcdonalds",
+            "North Fish",
+            "Pasibu",
+            "pressbyran",
+            "Wrap Me"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "General Merchandise",
+      "icon": "shopping-bag",
+      "businessDefault": "personal",
+      "isHidden": false,
+      "isCashWithdrawal": false,
+      "keywords": [
+        "OLX"
+      ],
+      "subcategories": [
+        {
+          "name": "Clothing",
+          "icon": "shirt",
+          "keywords": [
+            "Big Star",
+            "ccc",
+            "coccodrillo",
+            "decathlon",
+            "designer outlet",
+            "eobuwie.com.pl",
+            "esprit",
+            "h and m",
+            "h&m",
+            "hm",
+            "infinite styles services",
+            "intersport",
+            "Intimissimi",
+            "louis vuitton",
+            "lpp reserved",
+            "Marks & Spencer",
+            "Marks and Spen",
+            "Medicine",
+            "MOHITO",
+            "pepco",
+            "primark",
+            "Reserved",
+            "Rituals",
+            "rylko",
+            "shein",
+            "smyk",
+            "TK Maxx",
+            "Zalando",
+            "zara"
+          ]
+        },
+        {
+          "name": "Online shopping (unsorted)",
+          "icon": null,
+          "keywords": [
+            "aliexpress",
+            "allegro",
+            "amazon",
+            "amzn",
+            "paypro",
+            "paypro sa blik",
+            "payu blik"
+          ]
+        },
+        {
+          "name": "Electronics",
+          "icon": "smartphone",
+          "keywords": [
+            "euro net",
+            "apple online store",
+            "applecompl",
+            "cyfraeu",
+            "cyfrowepl",
+            "komputronik",
+            "media expert",
+            "mediaexpert",
+            "mediamarkt",
+            "morele.net",
+            "neonet",
+            "store.supercell.com",
+            "x-kom",
+            "xkom"
+          ]
+        },
+        {
+          "name": "Home Goods",
+          "icon": null,
+          "keywords": [
+            "duka",
+            "home and you",
+            "Homla",
+            "Wittchen"
+          ]
+        },
+        {
+          "name": "Gifts & Stationary",
+          "icon": null,
+          "keywords": [
+            "4kids",
+            "Action",
+            "Apart",
+            "empik",
+            "Flying Tiger Copenhagen",
+            "kohinoor hardtmuth",
+            "kwiatowy",
+            "Lindt",
+            "pen toys",
+            "Salon firmowy Apart"
+          ]
+        },
+        {
+          "name": "Cosmetics",
+          "icon": null,
+          "keywords": [
+            "Bijou Brigitte",
+            "hebe",
+            "rossmann",
+            "Sephora",
+            "vision express"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "General Services",
+      "icon": "briefcase",
+      "businessDefault": "personal",
+      "isHidden": false,
+      "isCashWithdrawal": false,
+      "keywords": [
+        "poczta polska"
+      ],
+      "subcategories": [
+        {
+          "name": "Subscription Services",
+          "icon": "music",
+          "keywords": [
+            "adobe",
+            "Anthropic",
+            "Apple",
+            "applecombill",
+            "audible",
+            "chess.com",
+            "cloud",
+            "deezer",
+            "disney+",
+            "express vpn",
+            "expressvpncom",
+            "formula 1",
+            "globoplay",
+            "Google One",
+            "Google Play",
+            "hbo",
+            "itunescombill",
+            "metal plan fee",
+            "netflix",
+            "OpenAI",
+            "PlayStation",
+            "Premium plan fee",
+            "rosetta",
+            "skype",
+            "spotify",
+            "trading view",
+            "Twinkl",
+            "wixcom",
+            "youtube"
+          ]
+        },
+        {
+          "name": "Professional Services",
+          "icon": null,
+          "keywords": []
+        }
+      ]
+    },
+    {
+      "name": "Medical",
+      "icon": "activity",
+      "businessDefault": "personal",
+      "isHidden": false,
+      "isCashWithdrawal": false,
+      "subcategories": [
+        {
+          "name": "Doctor Visits",
+          "icon": null,
+          "keywords": [
+            "medica",
+            "medicover",
+            "medyczne"
+          ]
+        },
+        {
+          "name": "Pharmacy",
+          "icon": "pill",
+          "keywords": [
+            "apteka",
+            "DOZ.PL",
+            "DR ZDROWIE",
+            "DR. MAX ONLINE",
+            "drogeria",
+            "Drogerie Natura",
+            "Farmacia",
+            "Farmacja",
+            "pharm",
+            "pharma"
+          ]
+        },
+        {
+          "name": "Health Insurance",
+          "icon": null,
+          "keywords": [
+            "axa pppalc",
+            "enel-med",
+            "enelmed",
+            "ergo",
+            "krajmed"
+          ]
+        },
+        {
+          "name": "Dental visits",
+          "icon": null,
+          "keywords": []
+        }
+      ]
+    },
+    {
+      "name": "Transportation",
+      "icon": "car",
+      "businessDefault": "personal",
+      "isHidden": false,
+      "isCashWithdrawal": false,
+      "subcategories": [
+        {
+          "name": "Public Transportation",
+          "icon": "bus",
+          "keywords": [
+            "areeiro",
+            "arlanda",
+            "aut bilet",
+            "bilet ztm",
+            "intercitypl",
+            "jakdojade",
+            "metro",
+            "tcentralen",
+            "tfl",
+            "transportes intermodais",
+            "Warszawski Transport Publiczny"
+          ]
+        },
+        {
+          "name": "Parking",
+          "icon": "car",
+          "keywords": [
+            "automaty vendserwis",
+            "blue city",
+            "easypark",
+            "Flowbird",
+            "galeria mokotow",
+            "Lotnisko Chopina",
+            "parking",
+            "sadyba best mall",
+            "spp warszawa",
+            "zarzad drog",
+            "Złote Tarasy"
+          ]
+        },
+        {
+          "name": "Fuel",
+          "icon": "fuel",
+          "keywords": [
+            "bp",
+            "circle k",
+            "E.ON",
+            "MOL",
+            "orlen",
+            "pgnig",
+            "shell",
+            "statoil"
+          ]
+        },
+        {
+          "name": "Car Maintenance",
+          "icon": "wrench",
+          "keywords": [
+            "allianz"
+          ]
+        },
+        {
+          "name": "Car insurance",
+          "icon": null,
+          "keywords": [
+            "Vwfs Ubezpieczenia"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Personal Care",
+      "icon": "scissors",
+      "businessDefault": "personal",
+      "isHidden": false,
+      "isCashWithdrawal": false,
+      "subcategories": [
+        {
+          "name": "Gym Memberships",
+          "icon": "dumbbell",
+          "keywords": [
+            "fitness",
+            "strefamocy.pl",
+            "total fitness",
+            "zdrofit"
+          ]
+        },
+        {
+          "name": "beauty parlor",
+          "icon": null,
+          "keywords": []
+        },
+        {
+          "name": "Suplements",
+          "icon": null,
+          "keywords": [
+            "GymBeam"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Travel",
+      "icon": "plane",
+      "businessDefault": "personal",
+      "isHidden": false,
+      "isCashWithdrawal": false,
+      "subcategories": [
+        {
+          "name": "Flights",
+          "icon": "plane",
+          "keywords": [
+            "air france",
+            "air lines",
+            "airberlin",
+            "British Airways",
+            "enter air",
+            "global collect",
+            "Go to gate",
+            "klm",
+            "lisboa prt",
+            "lot",
+            "Lufthansa",
+            "sata internacional",
+            "Swiss",
+            "Swiss International",
+            "swiss intl",
+            "tap",
+            "wizz air"
+          ]
+        },
+        {
+          "name": "Hotels",
+          "icon": "bed",
+          "keywords": [
+            "afrodyta",
+            "airbnb",
+            "BANIA",
+            "Booking.com",
+            "coral travel",
+            "Hilton",
+            "hotel",
+            "http://warszawianka.pl",
+            "Pałac i Folwark Łochów",
+            "rainbow",
+            "Renters",
+            "termabania.pl",
+            "warszawianka"
+          ]
+        },
+        {
+          "name": "Transportation (during travel)",
+          "icon": null,
+          "keywords": [
+            "cars on booking",
+            "cff gare",
+            "sixt.com/ online",
+            "taxi",
+            "uber"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Government & Non-profit",
+      "icon": "landmark",
+      "businessDefault": "personal",
+      "isHidden": false,
+      "isCashWithdrawal": false,
+      "subcategories": [
+        {
+          "name": "Personal Taxes and Fees",
+          "icon": null,
+          "keywords": [
+            "ambasada",
+            "bundesamt fur justiz",
+            "bundesjustizamt"
+          ]
+        },
+        {
+          "name": "Tickets",
+          "icon": null,
+          "keywords": []
+        },
+        {
+          "name": "Charitable Donations",
+          "icon": "gift",
+          "keywords": [
+            "doacao msf",
+            "FUNDACJA WWF POLSKA",
+            "medicos sem"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Company",
+      "icon": "building",
+      "businessDefault": "business",
+      "isHidden": false,
+      "isCashWithdrawal": false,
+      "subcategories": [
+        {
+          "name": "Accounting",
+          "icon": null,
+          "keywords": []
+        },
+        {
+          "name": "VAT income",
+          "icon": null,
+          "keywords": [
+            "Zwrot z podatku VAT"
+          ]
+        },
+        {
+          "name": "PIT Tax",
+          "icon": null,
+          "keywords": [
+            "urzad skarbowy"
+          ]
+        },
+        {
+          "name": "ZUS Payment",
+          "icon": null,
+          "keywords": [
+            "zus"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cash Withdrawal",
+      "icon": "banknote",
+      "businessDefault": "personal",
+      "isHidden": false,
+      "isCashWithdrawal": true,
+      "keywords": [
+        "cash",
+        "euronet"
+      ],
+      "subcategories": []
+    },
+    {
+      "name": "Kids",
+      "icon": "star",
+      "businessDefault": "personal",
+      "isHidden": false,
+      "isCashWithdrawal": false,
+      "subcategories": [
+        {
+          "name": "School",
+          "icon": "graduation-cap",
+          "keywords": []
+        },
+        {
+          "name": "Activities",
+          "icon": null,
+          "keywords": [
+            "Litlle Gym",
+            "little gym"
+          ]
+        },
+        {
+          "name": "Playground & parks",
+          "icon": null,
+          "keywords": [
+            "digiloo",
+            "fikolki",
+            "Fun Lab Sp. Z O.o.",
+            "Hangar 646",
+            "hop and pop",
+            "jungle academy",
+            "Majaland",
+            "Room Escape",
+            "Swiat Zabawek"
+          ]
+        },
+        {
+          "name": "Parties",
+          "icon": null,
+          "keywords": []
+        }
+      ]
+    },
+    {
+      "name": "Education",
+      "icon": "graduation-cap",
+      "businessDefault": "personal",
+      "isHidden": false,
+      "isCashWithdrawal": false,
+      "subcategories": [
+        {
+          "name": "Courses (adults)",
+          "icon": null,
+          "keywords": [
+            "british council",
+            "Flywire"
+          ]
+        }
+      ]
+    }
+  ]
+}

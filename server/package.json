@@ -1,0 +1,30 @@
+{
+  "name": "bext-server",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch-path=src --watch-path=drizzle src/index.js",
+    "start": "node src/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "db:generate": "drizzle-kit generate",
+    "db:backup": "node scripts/backup.js",
+    "db:restore": "node scripts/restore.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0",
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.8.1",
+    "better-sqlite3-session-store": "^0.1.0",
+    "csv-parse": "^7.0.1",
+    "drizzle-orm": "^0.38.4",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "iconv-lite": "^0.7.3"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.30.2",
+    "vitest": "^2.1.8"
+  }
+}

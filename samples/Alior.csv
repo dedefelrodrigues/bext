@@ -1,0 +1,24 @@
+Kryteria transakcji : Okres : 20-04-2023 - 16-05-2023;Typ transakcji: Uznania/Obci¹¿enia,;Produkty: 11111100000000111122223333,
+Data transakcji;Data ksiêgowania;Nazwa nadawcy;Nazwa odbiorcy;Szczegó³y transakcji;Kwota operacji;Waluta operacji;Kwota w walucie rachunku;Waluta rachunku;Numer rachunku nadawcy;Numer rachunku odbiorcy
+16-05-2023;16-05-2023;Jan Kowalski;ZUS ;Sk³adki ZUS za 04-2023;-1234,56;PLN;-1234,56;PLN;11 1111 0000 0000 1111 2222 3333;99 1010 0000 0000 0000 0000 0001;
+15-05-2023;15-05-2023;Jan Kowalski;¯abka Polska sp. z o.o.;Zakup przy u¿yciu karty Warszawa;-23,49;PLN;-23,49;PLN;11 1111 0000 0000 1111 2222 3333;;
+14-05-2023;15-05-2023;Jan Kowalski;BIEDRONKA 1234;Zakup przy u¿yciu karty Kraków;-187,20;PLN;-187,20;PLN;11 1111 0000 0000 1111 2222 3333;;
+12-05-2023;12-05-2023;ACME Sp. z o.o.;Jan Kowalski;Wynagrodzenie za 04-2023;9500,00;PLN;9500,00;PLN;55 1020 0000 0000 0000 0000 0002;11 1111 0000 0000 1111 2222 3333;
+11-05-2023;12-05-2023;Jan Kowalski;ORLEN Stacja nr 101;Zakup przy u¿yciu karty;-260,00;PLN;-260,00;PLN;11 1111 0000 0000 1111 2222 3333;;
+10-05-2023;10-05-2023;Jan Kowalski;Netflix.com;P³atnoœæ kart¹ za granic¹;-12,99;EUR;-58,42;PLN;11 1111 0000 0000 1111 2222 3333;;
+09-05-2023;09-05-2023;Jan Kowalski;ROSSMANN 201;Zakup przy u¿yciu karty;-64,85;PLN;-64,85;PLN;11 1111 0000 0000 1111 2222 3333;;
+08-05-2023;08-05-2023;Jan Kowalski;Wspólnota Mieszkaniowa Przyk³adowa 1;Czynsz administracyjny 05-2023;-850,00;PLN;-850,00;PLN;11 1111 0000 0000 1111 2222 3333;33 1090 0000 0000 0000 0000 0003;
+07-05-2023;08-05-2023;Jan Kowalski;LIDL WARSZAWA;Zakup przy u¿yciu karty;-142,17;PLN;-142,17;PLN;11 1111 0000 0000 1111 2222 3333;;
+06-05-2023;06-05-2023;Jan Kowalski;IKEA Retail;Zakup przy u¿yciu karty;-399,00;PLN;-399,00;PLN;11 1111 0000 0000 1111 2222 3333;;
+05-05-2023;05-05-2023;Jan Kowalski;PGNiG Obrót Detaliczny;Op³ata za gaz 04-2023;-118,30;PLN;-118,30;PLN;11 1111 0000 0000 1111 2222 3333;44 1240 0000 0000 0000 0000 0004;
+04-05-2023;04-05-2023;Jan Kowalski;Orange Polska S.A.;Faktura za us³ugi telekomunikacyjne;-79,99;PLN;-79,99;PLN;11 1111 0000 0000 1111 2222 3333;66 1140 0000 0000 0000 0000 0005;
+03-05-2023;03-05-2023;Jan Kowalski;Apteka S³oneczna;Zakup przy u¿yciu karty;-36,40;PLN;-36,40;PLN;11 1111 0000 0000 1111 2222 3333;;
+02-05-2023;02-05-2023;Jan Kowalski;EMPIK;Zakup przy u¿yciu karty;-54,98;PLN;-54,98;PLN;11 1111 0000 0000 1111 2222 3333;;
+30-04-2023;02-05-2023;Jan Kowalski;Uber BV;P³atnoœæ kart¹ za granic¹;-6,10;EUR;-27,81;PLN;11 1111 0000 0000 1111 2222 3333;;
+28-04-2023;28-04-2023;Jan Kowalski;Anna Nowak;Zwrot za bilety;120,00;PLN;120,00;PLN;77 1050 0000 0000 0000 0000 0006;11 1111 0000 0000 1111 2222 3333;
+27-04-2023;27-04-2023;Jan Kowalski;Urz¹d Skarbowy Warszawa;PIT-36 za 2022;-1500,00;PLN;-1500,00;PLN;11 1111 0000 0000 1111 2222 3333;88 1010 0000 0000 0000 0000 0007;
+26-04-2023;26-04-2023;Jan Kowalski;CARREFOUR;Zakup przy u¿yciu karty;-211,36;PLN;-211,36;PLN;11 1111 0000 0000 1111 2222 3333;;
+25-04-2023;25-04-2023;Jan Kowalski;Spotify AB;P³atnoœæ kart¹ za granic¹;-23,99;PLN;-23,99;PLN;11 1111 0000 0000 1111 2222 3333;;
+24-04-2023;24-04-2023;Jan Kowalski;Bankomat Euronet;Wyp³ata gotówki z bankomatu;-300,00;PLN;-300,00;PLN;11 1111 0000 0000 1111 2222 3333;;
+21-04-2023;21-04-2023;Jan Kowalski;MEDIA EXPERT;Zakup przy u¿yciu karty;-1299,00;PLN;-1299,00;PLN;11 1111 0000 0000 1111 2222 3333;;
+20-04-2023;20-04-2023;Jan Kowalski;Jan Kowalski;Przelew w³asny;-500,00;PLN;-500,00;PLN;11 1111 0000 0000 1111 2222 3333;12 1111 0000 0000 9999 8888 7777;

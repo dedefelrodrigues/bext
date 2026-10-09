@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# Build output
+client/dist/
+
+# Database (auto-created; migrations are the source of truth)
+server/data/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Real bank extracts and the personal category seed stay on this machine.
+samples/private/
